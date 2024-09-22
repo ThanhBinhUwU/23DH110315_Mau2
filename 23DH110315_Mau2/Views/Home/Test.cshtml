@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<style type="text/css">
+    #banner {
+        background-image: url("https://th.bing.com/th/id/R.9e4dccccfd1c4085c3da3fcdfaea4802?rik=jtsGXRn7R7gh2A&riu=http%3a%2f%2fimages.fanpop.com%2fimages%2fimage_uploads%2fHello-Kitty-hello-kitty-181638_1024_768.gif&ehk=mbOuYe7ME9MhbT8j1gHQxWcj7gZMd4PUQU%2bAb4iGoCU%3d&risl=&pid=ImgRaw&r=0");
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .banner-content {
+        text-align: center;
+        color: black;
+
+    }
+
+    .banner-content h2{
+        font-size:2.5rem;
+    }
+    .banner-content p{
+        font-size:2rem;
+    }
+
+    .btn{
+        display:inline-block;
+        padding: 5px 20px;
+        background-color:aliceblue;
+        color:black;
+        text-decoration:none;
+        font-weight:bold;
+    }
+
+    #featureProd{
+        text-align:center;
+    }
+    #featureProd h2{
+        font-size:2rem;
+        margin-bottom:20px;
+    }
+    .prodContainer{
+        display:flex;
+        justify-content:center;
+        gap:10px;
+    }
+    .product-item{
+        width:200px;
+    }
+    .product-item img{
+        max-width:200px;
+    }
+    .productDescription{
+        font:arial;
+        font-size:12px;
+        color:black;
+    }
+    .product-item h3{
+        font-size:16px;
+        color:black;
+        margin:10px 0px;
+    }
+    .productPrice{
+        font-size:12px;
+        color:black;
+        font-weight:bold;
+    }
+
+</style>
+<section id="banner">
+     <div class="banner-content">
+         <h2>Chào mừng đến với thế giới Hello Kitty </h2>
+         <p>Giành cho tín đồ yêu màu hồng</p>
+         <a href="#" class="btn">Bắt đầu tham quan </a>
+     </div>
+</section>
+
+    <section id="search" class="content-section">
+
+    </section>
+    <section id="featureProd" class="content-section">
+        <h2>Sản phẩm nổi bật</h2>
+        <div class="prodContainer">
+            <div class="product-item">
+                <img src="https://i.pinimg.com/736x/7d/78/f6/7d78f69cfa86d4fc5b96abfd46281f17.jpg" />
+                <p>Kitty Mit Uot</p>
+                <p class="productDescription">Mỏng manh, dễ vỡ</p>
+                <p class="productPrice">100.000</p>
+            </div>
+            <div class="product-item">
+                <img src="https://i.pinimg.com/736x/a3/57/ad/a357ad77f664688c3ed99fb428f1a8f3.jpg" />
+                <p>Kitty Uong Nuoc</p>
+                <p class="productDescription">Nhẹ nhàng, đằm thắm</p>
+                <p class="productPrice">200.000</p>
+            </div>
+            <div class="product-item">
+                <img src="https://i.pinimg.com/564x/4e/48/7f/4e487ff2511ac69e977ea6e5ea897125.jpg" />
+                <p>Kitty Tuc Gian</p>
+                <p class="productDescription">Cọc cằn, khó chịu</p>
+                <p class="productPrice">300.000</p>
+            </div>
+        </div>
+    </section>
+    <section
+        id="productList">
+    </section>
+
+    
+
+
